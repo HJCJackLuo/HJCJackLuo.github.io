@@ -1,8 +1,23 @@
 #section {
-  width: 50%;
-  height: 100%;
   background-color: red;
-  z-index: 1
 }
 
-html
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+#second-section{
+    background-color: blue
+}
+
+.half-width{
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+
+.half-width p{
+  text-align: center;
+  color: white;
+}
