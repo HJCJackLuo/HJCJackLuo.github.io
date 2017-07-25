@@ -37,10 +37,14 @@
 }
 
 .button-right {
-  margin-right: 40px;
+  margin-left: 40px;
   margin-top: 40px;
   width: 100px;
   height: 35px;
   border-width: thick;
   color: #95a5a6;
+}
+
+#AwesomeTitle {
+  
 }
