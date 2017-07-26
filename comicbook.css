@@ -57,7 +57,11 @@
   height: 52.5px;
 }
 
-#AwesomeTitle {
+#AwesomeTitle, #AwesomeSubhead{
+  margin: 0;
+}
+
+#AwesomeTitle marquee {
 font-size: 72px;
 font-family: Georgia;
 color: #4183D7;
@@ -65,7 +69,7 @@ text-align: center;
 margin: 0;
 }
 
-#AwesomeSubhead {
+#AwesomeSubhead marquee {
 font-size: 48px;
 font-family: Georgia;
 color: #2C3E50;
