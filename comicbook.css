@@ -17,7 +17,7 @@
 }
 
 .topsection {
-    background-color: #1abc9c;
+    background-color: #52B3D9;
     width: 100%;
     height: auto;
     margin: 0;
@@ -53,21 +53,21 @@
 }
 
 .button-size {
-  width: 100px;
-  height: 35px;
+  width: 150px;
+  height: 52.5px;
 }
 
 #AwesomeTitle {
 font-size: 72px;
 font-family: Georgia;
-color: #f1c40f;
+color: #4183D7;
 text-align: center;
 }
 
 #AwesomeSubhead {
 font-size: 48px;
 font-family: Georgia;
-color: #c0392b;
+color: #2C3E50;
 text-align: center;
 }
 
