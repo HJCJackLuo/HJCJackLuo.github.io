@@ -18,7 +18,11 @@
 
 .half2width {
     width: 50%;
-    height: 100%;
+    display: inline-block;
+}
+
+.doubleheight {
+    height: 200%;
     display: inline-block;
 }
 
