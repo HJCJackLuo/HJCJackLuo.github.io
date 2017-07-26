@@ -19,7 +19,7 @@
 .topsection {
     background-color: #52B3D9;
     width: 100%;
-    height: 35%;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -83,7 +83,7 @@ text-align: center;
   padding: 0;
   overflow: hidden;
   background-color: #8e44ad;
-  height: 35%;
+  height: auto;
 }
 
 .nav-bar li{
@@ -94,9 +94,9 @@ text-align: center;
   color: #dcc6e0;
   font-family: georgia;
   display: block;
-  font-size: 14px;
+  font-size: 36px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 36px 42px;
   text-decoration: none;
 }
 
