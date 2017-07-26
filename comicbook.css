@@ -16,6 +16,12 @@
     float: right;
 }
 
+.topsection {
+    background-color: ##1abc9c;
+    width: 100%;
+    height: auto;
+}
+
 .half2width {
     width: 50%;
     display: inline-block;
