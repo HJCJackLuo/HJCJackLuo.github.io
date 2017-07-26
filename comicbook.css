@@ -83,5 +83,11 @@ text-align: center;
   padding: 0;
   overflow: hidden;
   background-color: #8e44ad;
-  display: inline;
 }
+
+.nav-item {
+  float: left;
+
+}
+
+.nav-item a 
