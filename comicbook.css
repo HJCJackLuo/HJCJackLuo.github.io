@@ -20,6 +20,8 @@
     background-color: #1abc9c;
     width: 100%;
     height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .half2width {
@@ -73,4 +75,13 @@ text-align: center;
   font-size: 24px;
   font-family: Georgia;
   color: #2c3e50;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8e44ad;
+  display: inline;
 }
