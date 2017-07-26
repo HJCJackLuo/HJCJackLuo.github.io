@@ -49,12 +49,14 @@
 font-size: 72px;
 font-family: Georgia;
 color: #f1c40f;
+text-align: center;
 }
 
 #AwesomeSubhead {
 font-size: 48px;
 font-family: Georgia;
 color: #c0392b;
+text-align: center;
 }
 
 .description {
