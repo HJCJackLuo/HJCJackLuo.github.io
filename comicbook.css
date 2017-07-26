@@ -83,11 +83,16 @@ text-align: center;
   padding: 0;
   overflow: hidden;
   background-color: #8e44ad;
+  height: auto;
 }
 
 .nav-item {
   float: left;
-
 }
 
-.nav-item a 
+.nav-item a {
+  color: #dcc6e0;
+  font-family: georgia
+  display: block;
+  font-size: 36px
+}
