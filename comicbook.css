@@ -92,7 +92,9 @@ text-align: center;
 
 .nav-item a {
   color: #dcc6e0;
-  font-family: georgia
+  font-family: georgia;
   display: block;
-  font-size: 36px
+  font-size: 36px;
+  text-align: center;
+  padding: 36px 42px;
 }
