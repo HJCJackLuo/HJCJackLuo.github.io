@@ -3,7 +3,43 @@
     <link rel="stylesheet" href="comicbook.css">
     <link rel="stylesheet" href="animate.css">
     <script type="jquery-3.2.1">
+      function animationClick(element, animation){
+        element = $(element);
+        element.click(
+          function() {
+            element.addClass('animated ' + animation);
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+      }, 2000);
+      });
+      }
+      function animationHover(element, animation){
+        element = $(element);
+      element.hover(
+        function() {
+          element.addClass('animated ' + animation);
+      },
+      function(){
+      window.setTimeout( function(){
+        element.removeClass('animated ' + animation);
+      }, 2000);
+      });
+      }
 
+
+      $(document).ready(function(){
+
+
+
+
+
+      $('#logo').each(function() {
+        animationHover(this, 'bounce');
+      });
+
+
+
+      });
     </script>
     <title>
       Jack's Page
