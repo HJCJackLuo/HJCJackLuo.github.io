@@ -10,7 +10,7 @@
 .nav-item {
   margin: 0px;
   display: block;
-  padding: 36px 42px;
+  padding: 14px 16px;
   float: left;
 
 }
@@ -20,35 +20,115 @@
 }
 
 .nav-item a {
-  float: left;
+  float: right;
   color: white;
   text-decoration: none;
   font-family: "Open Sans";
-  font-size: 36px;
+  font-size: 14px;
   text-align: center;
 }
 
-.head-one {
-  text-align: center;
-  font-family: "Open Sans";
-  font-size: 72px;
-}
-
-.head-three {
+#head-four-one {
   text-align: center;
   font-family: "Open Sans";
-  font-size: 48px;
+  font-size: 30px;
+  color: #1a54af;
 }
 
-#over{
-  position: absolute;
-  top: 80px;
-  left: 400px;
+#head-one-one {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 120px;
   color: #102f60;
 }
 
+
+#head-three-one {
+  text-align: left;
+  font-family: "Open Sans";
+  font-size:72px;
+  color: #1a54af;
+}
+
+#head-one-two {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 72px;
+  color: #102f60;
+}
+
+#head-three-two {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 48px;
+  color: #1a54af;
+}
+
+#over-head-one{
+  position: absolute;
+  top: 80px;
+  display: inline;
+  left: 30px;
+  color: #102f60;
+  width: 100%;
+}
+
+#over-head-three{
+  position: absolute;
+  top: 600px;
+  display: inline;
+  left: 540px;
+  color: #1a54af;
+  width: 100%;
+}
+
+#small-text-one{
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #1a54af;
+}
+
+#over-small-text {
+  position: absolute;
+  top: 120px;
+  display: inline;
+  left: 60px;
+  color: #1a54af;
+  width: 100%;
+}
+
 #canvas {
-  height: 50%;
-  width: 50%;
-  align-content: center;
+  height: 900px;
+  width: 900px;
+  margin: auto;
+  display: block;
+}
+
+#Contact-Me {
+  text-decoration: none;
+  background-color: skyblue;
+  color: darkblue;
+  font-size: 24px
+}
+
+#one-section-one {
+height: 100%;
+width: 100/3%;
+display: inline-block;
+background-color: red
+}
+
+#one-section-two {
+height: 100%;
+width: 100/3%;
+display: inline-block;
+background-color: yellow
+}
+
+#one-section-three {
+height: 100%;
+width: 100/3%;
+display: inline-block;
+background-color: green
 }
