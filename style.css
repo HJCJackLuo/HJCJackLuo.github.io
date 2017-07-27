@@ -1,29 +1,54 @@
 .nav-bar {
   margin: 0;
   padding: 0;
-
-
+  height: auto;
+  list-style-type: none;
+  background-color: #102f60;
+  overflow: hidden;
 }
 
 .nav-item {
-  background-color: #102f60
-
-
-}
-
-.nav-item a {
-  text-decoration: none;
-  font-size: 14;
-  color: white
-
-}
-
-.nav-bar-button {
-
+  margin: 0px;
+  display: block;
+  padding: 36px 42px;
+  float: left;
 
 }
 
 .nav-item:hover {
+  background-color: #051630;
+}
 
+.nav-item a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 36px;
+  text-align: center;
+}
 
+.head-one {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 72px;
+}
+
+.head-three {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 48px;
+}
+
+#over{
+  position: absolute;
+  top: 80px;
+  left: 400px;
+  color: #102f60;
+}
+
+#canvas {
+  height: 50%;
+  width: 50%;
+  align-content: center;
 }
