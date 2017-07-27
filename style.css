@@ -1,23 +1,29 @@
-#section1 {
-  background-color: red;
-}
-
-html, body{
+.nav-bar {
   margin: 0;
   padding: 0;
+
+
 }
 
-#second-section1{
-    background-color: blue;
+.nav-item {
+  background-color: #102f60
+
+
 }
 
-.half-width{
-  width: 50%;
-  height: 100%;
-  display: inline-block;
+.nav-item a {
+  text-decoration: none;
+  font-size: 14;
+  color: white
+
 }
 
-.half-width p{
-  text-align: center;
-  color: white;
+.nav-bar-button {
+
+
+}
+
+.nav-item:hover {
+
+
 }
